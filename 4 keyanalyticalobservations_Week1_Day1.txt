@@ -1,0 +1,23 @@
+1.Dataset size and structure
+
+The dataset contains 51,290 rows and 13 columns, indicating a fairly large transactional dataset suitable for sales or order-level analysis.
+
+2,Data types need cleaning
+
+All columns are currently stored as object (string) data types, including dates (Order Date, Ship Date) and numeric fields (Sales, Quantity, Discount, Profit).
+
+These should be converted to appropriate datetime and numeric types before analysis.
+
+3.Significant missing values present
+
+Several columns have missing values, notably in fields like Customer Name, Country, Region, Sales, Quantity, Discount, Profit, and Order Priority.
+
+This indicates a need for data cleaning or imputation before performing accurate analytics.
+
+4.Column naming issue
+
+Columns are labeled as Unnamed: 0, Unnamed: 1, etc., suggesting improper header extraction during data import.
+
+Meaningful column names should be assigned to improve readability and usability for analysis.
+
+These observations highlight that data preprocessing is essential before proceeding with deeper analytics or modeling.
